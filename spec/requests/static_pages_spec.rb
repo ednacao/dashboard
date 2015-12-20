@@ -1,11 +1,16 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe "Static pages" do
 
-  describe "Home page" do
-
-    it "should have content" do
+    it "loads the home page" do
       visit '/static_pages/home'
     end
-  end
+
+    it "loads the login page" do
+      visit 'static_pages/login'
+    end
+    
+    it "loads the user page" do
+      visit 'static_pages/user'
+    end
 end

@@ -8,7 +8,6 @@ gem 'jquery-rails', '4.0.3'
 gem 'turbolinks',   '2.3.0'
 gem 'jbuilder',     '2.2.3'
 gem 'sdoc',         '0.4.0', group: :doc
-gem 'rspec'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
@@ -22,6 +21,7 @@ group :test do
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
   gem 'capybara'
+  gem 'rspec-rails'
 end
 
 group :production do
