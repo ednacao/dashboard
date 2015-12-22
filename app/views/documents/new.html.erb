@@ -1,0 +1,9 @@
+<h1>Documents#new</h1>
+<p>
+  <% @documents.each do |document| %>
+  <li>
+    <%= @documents.name %>
+    <%= @documents.loan_amount %>
+  </li>
+  <% end %>
+</p>

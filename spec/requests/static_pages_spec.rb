@@ -10,7 +10,4 @@ describe "Static pages" do
       visit 'static_pages/login'
     end
     
-    it "loads the user page" do
-      visit 'static_pages/user'
-    end
 end
